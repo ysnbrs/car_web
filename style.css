@@ -82,6 +82,58 @@ h1{
     font-size: 16px;
 
 }
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card {
+    
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    margin: 10px 15px;
+    position: relative;
+    transition: ease 1s;
+
+}
+.card:hover{
+    transform: translateY(10px);
+    border-color: #fff;
+   
+
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+
+
+
+}
+.card .card-bottom {
+    position: absolute;
+    bottom: 26px;
+}
+.card.card-1{
+    background-image: url(./images/pic-1.png);
+
+}
+.card.card-2{
+    background-image: url(./images/pic-2.png);
+}
+.card.card-3{
+    background-image: url(./images/pic-3.png);
+}
+.card.card-4{
+    background-image: url(./images/pic-4.png);
+}
     
     
     
